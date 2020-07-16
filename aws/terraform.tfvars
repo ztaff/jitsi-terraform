@@ -8,7 +8,7 @@
 #-------------------
 # aws_profile = "default"
 aws_region    = "eu-west-1"
-instance_type = "t3.large"
+instance_type = "t3.xlarge"
 
 #-----------------------------------
 # Email Address for Let's Encrypt
@@ -24,12 +24,12 @@ email_address = "staffan@laranara.se"
 # files when recording/streaming is enabled.
 #--------------------------------------------------
 admin_username = "admin"
-admin_password = ""
+admin_password = "change me into something really good"
 
 #--------------------------------------------------------------
 # Base domain under which Jitsi server will be deployed
 #--------------------------------------------------------------
-parent_subdomain = "meet.mydomain.com"
+parent_subdomain = "meet.laranara.se"
 
 #---------------------------------------------------------------------------
 # (Optional) Subdomain under parent domain under which Jitsi will be hosted
