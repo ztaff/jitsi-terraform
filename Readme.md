@@ -27,11 +27,11 @@ sequenceDiagram
   App->>Identity Provider: Authorization code & code verifier (4)
   Note right of Identity Provider: Validate authorization code &<br/>code_verifier
 
-  Identity Provider->>App: token  (4)
-  App->>Identity Provider: Anrop med token för accesstoken (5)
+  Identity Provider->>App: Authorization code  (5)
+  App->>Identity Provider: Anrop med Authorization code för accesstoken (6)
 
-  Identity Provider->>App: Access token and ID token (6)
+  Identity Provider->>App: Access token and ID token (7)
   deactivate App
 
-  App->>Your API: Request protected data with access token (7)
+  App->>Your API: Request protected data with access token (8)
 ```
